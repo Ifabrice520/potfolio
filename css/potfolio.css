@@ -1,0 +1,1294 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* scroll behavior for section*/
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* whole screen*/
+
+body {
+    background-color: silver;
+}
+
+/* sections*/
+
+section {
+    width: 100%;
+    height: 100vh;
+    float: left;
+}
+
+/* Home Section*/
+
+
+#home {
+    background-color: rgb(238, 238, 238);
+}
+
+.header {
+    width: 100%;
+    height: 10vh;
+    background-color: rgb(236, 236, 236);
+    position: fixed;
+    z-index: 999;
+}
+
+.logo {
+    color: black;
+    position: absolute;
+    top: 13px;
+    left: 10%;
+}
+
+.logo span {
+    color: orangered;
+}
+
+
+.logo h1 {
+    position: absolute;
+    /* top: 2px; */
+    left: 10%;
+    font-size: 30px;
+}
+
+
+
+.navigation {
+    width: 50%;
+    height: 10vh;
+    /* background-color: black; */
+    position: absolute;
+    right: 5px;
+}
+
+.navigation a {
+    color: black;
+    font-size: 23px;
+    text-decoration: none;
+    padding: 30px;
+    position: relative;
+    top: 20px;
+}
+
+.body {
+    width: 100%;
+    height: 100vh;
+    /* background-color: teal; */
+}
+
+.pro {
+    position: absolute;
+    top: 30%;
+    left: 25%;
+}
+
+.pro img {
+    width: 75%;
+    height: 47vh;
+    border-radius: 50%;
+}
+
+.hello {
+    width: 30%;
+    height: 35vh;
+    /* background-color: red; */
+    position: absolute;
+    left: 58%;
+    top: 40%;
+}
+
+.hello p {
+    position: relative;
+    left: 80px;
+    font-size: 18px;
+}
+
+.hello h1 {
+    font-size: 35px;
+    position: absolute;
+    top: 25px;
+}
+
+.hello span {
+    position: absolute;
+    left: 40px;
+    top: 70px;
+    font-size: 20px;
+}
+
+button {
+    position: absolute;
+    top: 42%;
+    padding: 12px;
+}
+
+.hello button {
+    position: relative;
+    left: -12px;
+}
+
+.One {
+    /* background-color: black; */
+    position: absolute;
+    left: 20px;
+    width: 35%;
+    border: 1px solid rgb(46, 44, 44);
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.One:hover {
+    background-color: rgb(46, 44, 44);
+    color: white;
+}
+
+.one {
+    background-color: rgb(46, 44, 44);
+    position: relative;
+    /* left: 80%; */
+    width: 35%;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 16px;
+    color: white;
+}
+
+.image {
+    position: absolute;
+    left: 22%;
+    top: 79%;
+}
+
+.git img {
+    width: 70%;
+}
+
+.lin img {
+    width: 65%;
+    position: relative;
+    left: 90%;
+    top: -39px;
+}
+
+#about {
+    background-color: rgb(225, 225, 225);
+}
+
+.get {
+    position: absolute;
+    left: 48%;
+    top: 115%;
+    color: rgb(95, 95, 95);
+    font-size: 18px;
+}
+
+.get h1 {
+    color: black;
+    font-weight: 600;
+    font-size: 40px;
+    position: relative;
+    left: -20px;
+    top: 12px;
+}
+
+.profile {
+    position: absolute;
+    top: 129%;
+    left: 10%;
+}
+
+.profile img {
+    width: 125%;
+    height: 60vh;
+    border-radius: 20px;
+}
+
+.medule {
+    width: 25%;
+    height: 25vh;
+    border: 2px solid silver;
+    border-radius: 30px;
+    position: absolute;
+    left: 40%;
+    top: 135%;
+}
+
+.ima {
+    position: absolute;
+    left: 43%;
+    top: 12px;
+}
+
+.ima img {
+    width: 60%;
+}
+
+.medule h1 {
+    text-align: center;
+    position: relative;
+    top: 45px;
+}
+
+.medule span {
+    color: rgb(95, 95, 95);
+    font-size: 20px;
+    position: relative;
+    left: 39%;
+    top: 50px;
+
+}
+
+.medule p {
+    color: rgb(95, 95, 95);
+    font-size: 20px;
+    position: relative;
+    left: 25%;
+    top: 55px;
+}
+
+.education {
+    width: 25%;
+    height: 25vh;
+    border: 2px solid silver;
+    border-radius: 30px;
+    position: absolute;
+    left: 68%;
+    top: 135%;
+}
+
+.prof {
+    position: absolute;
+    top: 10%;
+    left: 45%;
+}
+
+.education h1 {
+    text-align: center;
+    position: relative;
+    top: 45px;
+}
+
+.education span {
+    color: rgb(95, 95, 95);
+    font-size: 20px;
+    position: relative;
+    left: 30%;
+    top: 60px;
+}
+
+.lore {
+    width: 49%;
+    position: absolute;
+    left: 42%;
+    top: 165%;
+    font-size: 20px;
+}
+
+#experience {
+    background-color: rgb(238, 238, 238);
+}
+
+.exp {
+    position: absolute;
+    left: 48%;
+    top: 215%;
+    color: rgb(95, 95, 95);
+    font-size: 18px;
+}
+
+.exp h1 {
+    color: black;
+    font-weight: 600;
+    font-size: 40px;
+    position: relative;
+    left: -50px;
+    top: 20px;
+}
+
+.front {
+    width: 37%;
+    height: 50vh;
+    border: 2px solid silver;
+    border-radius: 30px;
+    position: absolute;
+    top: 235%;
+    left: 13%;
+}
+
+.front h1 {
+    text-align: center;
+    position: relative;
+    top: 15px;
+    color: rgb(95, 95, 95);
+}
+
+.html {
+    position: absolute;
+    top: 25%;
+    left: 15%;
+}
+
+.html img {
+    width: 25%;
+}
+
+.html p {
+    color: black;
+    font-size: 20px;
+    position: relative;
+    left: 55%;
+    top: -35px;
+    font-weight: 600;
+}
+
+.html span {
+    color: rgb(95, 95, 95);
+    font-size: 17px;
+    position: relative;
+    left: 55%;
+    top: -30px;
+}
+
+.css {
+    position: absolute;
+    top: 60%;
+    left: 15%;
+}
+
+.css img {
+    width: 25%;
+}
+
+.css p {
+    color: black;
+    font-size: 20px;
+    position: relative;
+    left: 55%;
+    top: -35px;
+    font-weight: 600;
+}
+
+.css span {
+    color: rgb(95, 95, 95);
+    font-size: 17px;
+    position: relative;
+    left: 55%;
+    top: -30px;
+}
+
+.js {
+    position: absolute;
+    top: 24%;
+    left: 55%;
+}
+
+.js img {
+    width: 18%;
+}
+
+.js p {
+    color: black;
+    font-size: 20px;
+    position: relative;
+    left: 40%;
+    top: -35px;
+    font-weight: 600;
+}
+
+.js span {
+    color: rgb(95, 95, 95);
+    font-size: 17px;
+    position: relative;
+    left: 40%;
+    top: -30px;
+}
+
+.ui {
+    position: absolute;
+    top: 59%;
+    left: 55%;
+}
+
+.ui img {
+    width: 17%;
+}
+
+.ui p {
+    color: black;
+    font-size: 20px;
+    position: relative;
+    left: 40%;
+    top: -35px;
+    font-weight: 600;
+}
+
+.ui span {
+    color: rgb(95, 95, 95);
+    font-size: 17px;
+    position: relative;
+    left: 40%;
+    top: -30px;
+}
+
+.back {
+    width: 37%;
+    height: 50vh;
+    border: 2px solid silver;
+    border-radius: 30px;
+    position: absolute;
+    top: 235%;
+    left: 53%;
+}
+
+.back h1 {
+    text-align: center;
+    position: relative;
+    top: 15px;
+    color: rgb(95, 95, 95);
+}
+
+.sql {
+    position: absolute;
+    top: 25%;
+    left: 15%;
+}
+
+.sql img {
+    width: 25%;
+}
+
+.sql p {
+    color: black;
+    font-size: 20px;
+    position: relative;
+    left: 55%;
+    top: -35px;
+    font-weight: 600;
+}
+
+.sql span {
+    color: rgb(95, 95, 95);
+    font-size: 17px;
+    position: relative;
+    left: 55%;
+    top: -30px;
+}
+
+.my {
+    position: absolute;
+    top: 50%;
+    left: 15%;
+}
+
+.my img {
+    width: 25%;
+}
+
+.my p {
+    color: black;
+    font-size: 20px;
+    position: relative;
+    left: 55%;
+    top: -35px;
+    font-weight: 600;
+}
+
+.my span {
+    color: rgb(95, 95, 95);
+    font-size: 17px;
+    position: relative;
+    left: 55%;
+    top: -30px;
+}
+
+.maria {
+    position: absolute;
+    top: 75%;
+    left: 15%;
+}
+
+.maria img {
+    width: 22%;
+}
+
+.maria p {
+    color: black;
+    font-size: 20px;
+    position: relative;
+    left: 47%;
+    top: -35px;
+    font-weight: 600;
+}
+
+.maria span {
+    color: rgb(95, 95, 95);
+    font-size: 17px;
+    position: relative;
+    left: 47%;
+    top: -30px;
+}
+
+.oracle {
+    position: absolute;
+    top: 24%;
+    left: 55%;
+}
+
+.oracle img {
+    width: 23%;
+}
+
+.oracle p {
+    color: black;
+    font-size: 20px;
+    position: relative;
+    left: 40%;
+    top: -35px;
+    font-weight: 600;
+}
+
+.oracle span {
+    color: rgb(95, 95, 95);
+    font-size: 17px;
+    position: relative;
+    left: 40%;
+    top: -30px;
+}
+
+.php {
+    position: absolute;
+    top: 49%;
+    left: 55%;
+}
+
+.php img {
+    width: 22%;
+}
+
+.php p {
+    color: black;
+    font-size: 20px;
+    position: relative;
+    left: 40%;
+    top: -35px;
+    font-weight: 600;
+}
+
+.php span {
+    color: rgb(95, 95, 95);
+    font-size: 17px;
+    position: relative;
+    left: 40%;
+    top: -30px;
+}
+
+.got {
+    position: absolute;
+    top: 76%;
+    left: 55%;
+}
+
+.got img {
+    width: 23%;
+}
+
+.got p {
+    color: black;
+    font-size: 20px;
+    position: relative;
+    left: 40%;
+    top: -35px;
+    font-weight: 600;
+}
+
+.got span {
+    color: rgb(95, 95, 95);
+    font-size: 17px;
+    position: relative;
+    left: 40%;
+    top: -30px;
+}
+
+#project {
+    background-color: rgb(225, 225, 225);
+}
+
+.proj {
+    position: absolute;
+    left: 46%;
+    top: 315%;
+    color: rgb(95, 95, 95);
+    font-size: 18px;
+}
+
+.proj h1 {
+    color: black;
+    font-weight: 600;
+    font-size: 40px;
+    position: relative;
+    /* left: -5px; */
+    top: 12px;
+}
+
+.real {
+    width: 25%;
+    height: 60vh;
+    position: absolute;
+    top: 335%;
+    left: 10%;
+    border: 2px solid silver;
+    border-radius: 30px;
+}
+
+.real img {
+    width: 90%;
+    height: 30vh;
+    position: relative;
+    top: 20px;
+    left: 5%;
+    border-radius: 20px;
+}
+
+.a h1 {
+    position: relative;
+    top: 30px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.a button {
+    width: 30%;
+    position: relative;
+    top: 60px;
+    left: 50px;
+    border: 2px solid silver;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.a button a {
+    color: black;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.a button:hover {
+    background-color: rgb(108, 108, 108);
+    color: white;
+}
+
+.a .btn {
+    position: relative;
+    left: 70px;
+    border: 2px solid silver;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.for {
+    width: 25%;
+    height: 60vh;
+    position: absolute;
+    top: 335%;
+    left: 37.5%;
+    border: 2px solid silver;
+    border-radius: 30px;
+}
+
+.for img {
+    width: 90%;
+    height: 30vh;
+    position: relative;
+    top: 20px;
+    left: 5%;
+    border-radius: 20px;
+}
+
+.b h1 {
+    position: relative;
+    top: 30px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.b button {
+    width: 30%;
+    position: relative;
+    top: 60px;
+    left: 50px;
+    border: 2px solid silver;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.b button a {
+    color: black;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.b button:hover {
+    background-color: rgb(108, 108, 108);
+    color: white;
+}
+
+.b .btn {
+    position: relative;
+    left: 70px;
+    border: 2px solid silver;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.foreal img {
+    width: 90%;
+    height: 30vh;
+    position: relative;
+    top: 20px;
+    left: 5%;
+    border-radius: 20px;
+}
+
+.foreal {
+    width: 25%;
+    height: 60vh;
+    position: absolute;
+    top: 335%;
+    left: 65%;
+    border: 2px solid silver;
+    border-radius: 30px;
+}
+
+.c h1 {
+    position: relative;
+    top: 30px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.c button {
+    width: 30%;
+    position: relative;
+    top: 60px;
+    left: 50px;
+    border: 2px solid silver;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.c button a {
+    color: black;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.c button:hover {
+    background-color: rgb(108, 108, 108);
+    color: white;
+}
+
+.c .btn {
+    position: relative;
+    left: 70px;
+    border: 2px solid silver;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+#contact {
+    background-color: rgb(238, 238, 238);
+}
+
+.cont {
+    position: absolute;
+    left: 46%;
+    top: 425%;
+    color: rgb(95, 95, 95);
+    font-size: 18px;
+}
+
+.cont h1 {
+    color: black;
+    font-weight: 600;
+    font-size: 40px;
+    position: relative;
+    left: -50px;
+    top: 12px;
+}
+
+.container {
+    width: 40%;
+    height: 12vh;
+    border: 2px solid silver;
+    border-radius: 30px;
+    position: relative;
+    top: 45%;
+    left: 30%;
+}
+
+.gmail {
+    position: relative;
+    top: 20px;
+    left: 10px;
+}
+
+.gmail img {
+    width: 30px;
+}
+
+.gmail a {
+    position: relative;
+    top: -8px;
+    left: 12px;
+    color: black;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.ink {
+    position: relative;
+    top: -18px;
+    left: 60%;
+}
+
+.ink img {
+    width: 35px;
+}
+
+.ink a {
+    position: relative;
+    top: -8px;
+    left: 12px;
+    color: black;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.footer {
+    width: 100%;
+    height: 18vh;
+    background-color: rgb(225, 225, 225);
+    position: relative;
+    top: 70%;
+}
+
+.lego {
+    color: black;
+    position: absolute;
+    top: 45px;
+    left: 5%;
+}
+
+.lego span {
+    color: orangered;
+}
+
+
+.lego h1 {
+    position: absolute;
+    /* top: 2px; */
+    left: 10%;
+    font-size: 30px;
+}
+
+.nav {
+    width: 50%;
+    height: 10vh;
+    /* background-color: black; */
+    position: absolute;
+    right: 20%;
+    top: 30px;
+}
+
+.nav a {
+    color: black;
+    font-size: 23px;
+    text-decoration: none;
+    padding: 30px;
+    position: relative;
+    top: 20px;
+}
+
+.social {
+    position: absolute;
+    right: 6%;
+    top: 35%;
+}
+
+.social img {
+    width: 25%;
+}
+
+/* Media Screen query*/
+
+/* Home Section*/
+
+@media screen and (max-width: 1067px) {
+    #home {
+        background-color: rgb(238, 238, 238);
+    }
+
+    .header {
+        width: 100%;
+        height: 10vh;
+        background-color: rgb(236, 236, 236);
+        position: fixed;
+        z-index: 999;
+    }
+
+    .navigation {
+        width: 55%;
+        height: 10vh;
+        position: absolute;
+        right: 50px;
+        /* background-color: black; */
+    }
+
+    .pro {
+        position: absolute;
+        top: 30%;
+        left: 20%;
+    }
+
+    .pro img {
+        width: 75%;
+        height: 45vh;
+        border-radius: 50%;
+    }
+
+    .hello {
+        width: 30%;
+        height: 35vh;
+        position: absolute;
+        left: 55%;
+        top: 35%;
+    }
+
+    .hello span {
+        position: absolute;
+        left: 40px;
+        top: 70px;
+        font-size: 18px;
+    }
+
+    button {
+        position: absolute;
+        top: 50%;
+        padding: 12px;
+    }
+
+    .One {
+        position: absolute;
+        left: 20px;
+        width: 38%;
+        border: 1px solid rgb(46, 44, 44);
+        border-radius: 30px;
+        cursor: pointer;
+        font-size: 16px;
+    }
+
+    
+    .One:hover {
+        background-color: rgb(46, 44, 44);
+        color: white;
+    }
+
+    .one {
+        background-color: rgb(46, 44, 44);
+        position: relative;
+        width: 38%;
+        border: none;
+        border-radius: 30px;
+        cursor: pointer;
+        font-size: 16px;
+        color: white;
+    }
+
+    .image {
+        position: absolute;
+        left: 22%;
+        top: 95%;
+    }
+
+    #about {
+        background-color: rgb(225, 225, 225);
+    }
+
+    .medule span {
+        color: rgb(95, 95, 95);
+        font-size: 20px;
+        position: relative;
+        left: 36%;
+        top: 45px;
+    
+    }
+    
+    .medule p {
+        color: rgb(95, 95, 95);
+        font-size: 20px;
+        position: relative;
+        left: 18%;
+        top: 48px;
+    }
+
+    .education {
+        width: 25%;
+        height: 25vh;
+        border: 2px solid silver;
+        border-radius: 30px;
+        position: absolute;
+        left: 66%;
+        top: 135%;
+    }
+
+    .education span {
+        color: rgb(95, 95, 95);
+        font-size: 20px;
+        position: relative;
+        left: 25%;
+        top: 60px;
+    }
+
+    .lore {
+        width: 49%;
+        position: absolute;
+        left: 42%;
+        top: 165%;
+        font-size: 17px;
+    }
+
+    .front {
+        width: 37%;
+        height: 50vh;
+        border: 2px solid silver;
+        border-radius: 30px;
+        position: absolute;
+        top: 240%;
+        left: 13%;
+    }
+
+    .html {
+        position: absolute;
+        top: 30%;
+        left: 8%;
+    }
+
+    .css {
+        position: absolute;
+        top: 65%;
+        left: 8%;
+    }
+
+    .js {
+        position: absolute;
+        top: 29%;
+        left: 50%;
+    }
+
+    .ui {
+        position: absolute;
+        top: 64%;
+        left: 50%;
+    }
+
+    .back {
+        width: 37%;
+        height: 50vh;
+        border: 2px solid silver;
+        border-radius: 30px;
+        position: absolute;
+        top: 240%;
+        left: 53%;
+    }
+
+    .sql {
+        position: absolute;
+        top: 28%;
+        left: 10%;
+    }
+
+    .my {
+        position: absolute;
+        top: 53%;
+        left: 10%;
+    }
+
+    .maria {
+        position: absolute;
+        top: 78%;
+        left: 10%;
+    }
+    .oracle {
+        position: absolute;
+        top: 27%;
+        left: 58%;
+    }
+
+    .php {
+        position: absolute;
+        top: 52%;
+        left: 58%;
+    }
+
+    .got {
+        position: absolute;
+        top: 78%;
+        left: 58%;
+    }
+
+    .a button {
+        width: 40%;
+        position: relative;
+        top: 60px;
+        left: 30px;
+        border: 2px solid silver;
+        border-radius: 30px;
+        cursor: pointer;
+    }
+    
+    .a button a {
+        color: black;
+        font-weight: 600;
+        text-decoration: none;
+    }
+    
+    .a button:hover {
+        background-color: rgb(108, 108, 108);
+        color: white;
+    }
+    
+    .a .btn {
+        position: relative;
+        left: 30px;
+        border: 2px solid silver;
+        border-radius: 30px;
+        cursor: pointer;
+    }
+
+    .b button {
+        width: 40%;
+        position: relative;
+        top: 60px;
+        left: 30px;
+        border: 2px solid silver;
+        border-radius: 30px;
+        cursor: pointer;
+    }
+    
+    .b button a {
+        color: black;
+        font-weight: 600;
+        text-decoration: none;
+    }
+    
+    .b button:hover {
+        background-color: rgb(108, 108, 108);
+        color: white;
+    }
+    
+    .b .btn {
+        position: relative;
+        left: 30px;
+        border: 2px solid silver;
+        border-radius: 30px;
+        cursor: pointer;
+    }
+
+    .c button {
+        width: 40%;
+        position: relative;
+        top: 60px;
+        left: 30px;
+        border: 2px solid silver;
+        border-radius: 30px;
+        cursor: pointer;
+    }
+    
+    .c button a {
+        color: black;
+        font-weight: 600;
+        text-decoration: none;
+    }
+    
+    .c button:hover {
+        background-color: rgb(108, 108, 108);
+        color: white;
+    }
+    
+    .c .btn {
+        position: relative;
+        left: 30px;
+        border: 2px solid silver;
+        border-radius: 30px;
+        cursor: pointer;
+    }
+
+    .gmail a {
+        position: relative;
+        top: -8px;
+        left: -3px;
+        color: black;
+        text-decoration: none;
+        font-size: 17px;
+    }
+
+    .ink {
+        position: relative;
+        top: -18px;
+        left: 62%;
+    }
+
+    .ink a {
+        position: relative;
+        top: -8px;
+        left: -3px;
+        color: black;
+        text-decoration: none;
+        font-size: 17px;
+    }
+
+    .footer {
+        width: 100%;
+        height: 26vh;
+        background-color: rgb(225, 225, 225);
+        position: relative;
+        top: 70%;
+    }
+
+    .lego {
+        color: black;
+        position: absolute;
+        top: 50px;
+        left: 5%;
+    }
+
+    .nav {
+        width: 55%;
+        height: 10vh;
+        position: absolute;
+        right: 23%;
+        top: 35px;
+    }
+
+    .social {
+        position: absolute;
+        right: 4%;
+        top: 40%;
+    }
+
+    .social img {
+        width: 20%;
+    }
+}
