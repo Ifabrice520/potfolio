@@ -153,7 +153,7 @@ button {
 .one {
     background-color: rgb(46, 44, 44);
     position: relative;
-    /* left: 80%; */
+    left: 80%;
     width: 35%;
     border: none;
     border-radius: 30px;
@@ -1291,4 +1291,556 @@ button {
     .social img {
         width: 20%;
     }
+}
+
+@media screen and (max-width: 1024px) {
+    .header {
+        width: 100%;
+        height: 10vh;
+        background-color: rgb(236, 236, 236);
+        position: fixed;
+        z-index: 999;
+    }
+
+    .logo {
+        color: black;
+        position: absolute;
+        top: 10px;
+        left: 8%;
+    }
+
+    .navigation {
+        width: 55%;
+        height: 10vh;
+        position: absolute;
+        right: 50px;
+    }
+
+    .navigation a {
+        color: black;
+        font-size: 23px;
+        text-decoration: none;
+        padding: 30px;
+        position: relative;
+        top: 15px;
+    }
+
+    button {
+        position: absolute;
+        top: 50%;
+        padding: 12px;
+    }
+
+    .One {
+        position: absolute;
+        left: 20px;
+        width: 40%;
+        border: 1px solid rgb(46, 44, 44);
+        border-radius: 30px;
+        cursor: pointer;
+        font-size: 16px;
+    }
+
+    .One:hover {
+        background-color: rgb(46, 44, 44);
+        color: white;
+    }
+
+    .one {
+        background-color: rgb(46, 44, 44);
+        position: relative;
+        width: 40%;
+        border: none;
+        border-radius: 30px;
+        cursor: pointer;
+        font-size: 16px;
+        color: white;
+    }
+
+    .image {
+        position: absolute;
+        left: 25%;
+        top: 95%;
+    }
+
+    #about {
+        background-color: rgb(225, 225, 225);
+    }
+
+    .get {
+        position: absolute;
+        left: 48%;
+        top: 112%;
+        color: rgb(95, 95, 95);
+        font-size: 18px;
+    }
+    
+    .get h1 {
+        color: black;
+        font-weight: 600;
+        font-size: 38px;
+        position: relative;
+        left: -17px;
+        top: 7px;
+    }
+
+    .profile {
+        position: absolute;
+        top: 130%;
+        left: 10%;
+    }
+    
+    .profile img {
+        width: 125%;
+        height: 65vh;
+        border-radius: 20px;
+    }
+
+    .medule h1 {
+        text-align: center;
+        position: relative;
+        top: 40px;
+    }
+
+    .medule span {
+        color: rgb(95, 95, 95);
+        font-size: 20px;
+        position: relative;
+        left: 35%;
+        top: 40px;
+    
+    }
+    
+    .medule p {
+        color: rgb(95, 95, 95);
+        font-size: 20px;
+        position: relative;
+        left: 18%;
+        top: 45px;
+    }
+
+    .js p {
+        color: black;
+        font-size: 20px;
+        position: relative;
+        left: 35%;
+        top: -35px;
+        font-weight: 600;
+    }
+    
+    .js span {
+        color: rgb(95, 95, 95);
+        font-size: 17px;
+        position: relative;
+        left: 35%;
+        top: -30px;
+    }
+
+    .ui p {
+        color: black;
+        font-size: 20px;
+        position: relative;
+        left: 35%;
+        top: -35px;
+        font-weight: 600;
+    }
+    
+    .ui span {
+        color: rgb(95, 95, 95);
+        font-size: 17px;
+        position: relative;
+        left: 35%;
+        top: -30px;
+    }
+
+    .real {
+        width: 25%;
+        height: 62vh;
+        position: absolute;
+        top: 335%;
+        left: 10%;
+        border: 2px solid silver;
+        border-radius: 30px;
+    }
+
+    .a h1 {
+        position: relative;
+        top: 30px;
+        text-align: center;
+        font-size: 25px;
+        font-weight: 600;
+    }
+
+    .for {
+        width: 25%;
+        height: 62vh;
+        position: absolute;
+        top: 335%;
+        left: 37.5%;
+        border: 2px solid silver;
+        border-radius: 30px;
+    }
+
+    .b h1 {
+        position: relative;
+        top: 30px;
+        text-align: center;
+        font-size: 25px;
+        font-weight: 600;
+    }
+
+    .foreal {
+        width: 25%;
+        height: 62vh;
+        position: absolute;
+        top: 335%;
+        left: 65%;
+        border: 2px solid silver;
+        border-radius: 30px;
+    }
+
+    .c h1 {
+        position: relative;
+        top: 30px;
+        text-align: center;
+        font-size: 25px;
+        font-weight: 600;
+    }
+
+    .cont {
+        position: absolute;
+        left: 46%;
+        top: 415%;
+        color: rgb(95, 95, 95);
+        font-size: 18px;
+    }
+
+    .container {
+        width: 43%;
+        height: 12vh;
+        border: 2px solid silver;
+        border-radius: 30px;
+        position: relative;
+        top: 43%;
+        left: 30%;
+    }
+
+    .gmail {
+        position: relative;
+        top: 15px;
+        left: 10px;
+    }
+
+    .ink {
+        position: relative;
+        top: -23px;
+        left: 62%;
+    }
+
+    .social {
+        position: absolute;
+        right: 2%;
+        top: 37%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .header {
+        width: 100%;
+        height: 10vh;
+        background-color: rgb(236, 236, 236);
+        position: fixed;
+        z-index: 999;
+    }
+
+    .logo {
+        color: black;
+        position: absolute;
+        top: 7px;
+        left: 8%;
+    }
+
+    .navigation {
+        width: 60%;
+        height: 10vh;
+        position: absolute;
+        right: 4px;
+    }
+
+    .navigation a {
+        color: black;
+        font-size: 20px;
+        text-decoration: none;
+        padding: 20px;
+    }
+
+    .pro {
+        position: absolute;
+        top: 30%;
+        left: 15%;
+    }
+    
+    .pro img {
+        width: 75%;
+        height: 47vh;
+        border-radius: 50%;
+    }
+
+    .hello {
+        width: 30%;
+        height: 35vh;
+        position: absolute;
+        left: 55%;
+        top: 35%;
+    }
+
+    .hello h1 {
+        font-size: 28px;
+        position: absolute;
+        top: 25px;
+        left: 15px;
+    }
+
+    button {
+        position: relative;
+        top: 50%;
+    }
+/* 
+    .hello button {
+        position: relative;
+        left: -12px;     
+        width: 55%;
+    } */
+
+    .hello .One {
+        width: 55%;
+        position: relative;
+        left: -15px;
+        border: 1px solid rgb(46, 44, 44);
+        border-radius: 30px;
+        cursor: pointer;
+        font-size: 16px;
+    }
+
+    .hello .one {
+        background-color: rgb(46, 44, 44);
+        width: 55%;
+        position: relative;
+        left: 55%;
+        top: 45px;
+        border: none;
+        border-radius: 30px;
+        cursor: pointer;
+        font-size: 16px;
+        color: white;
+    }
+
+    .image {
+        position: absolute;
+        left: 33%;
+        top: 95%;
+    }
+
+    .get {
+        position: absolute;
+        left: 48%;
+        top: 111%;
+        color: rgb(95, 95, 95);
+        font-size: 18px;
+    }
+
+    .get h1 {
+        color: black;
+        font-weight: 600;
+        font-size: 30px;
+        position: relative;
+        left: 5px;
+        top: 5px;
+    }
+
+    .profile {
+        position: absolute;
+        top: 125%;
+        left: 2%;
+    }
+
+    .profile img {
+        width: 117%;
+        height: 70vh;
+        border-radius: 20px;
+    }
+
+    .medule {
+        width: 28%;
+        height: 25vh;
+        border: 2px solid silver;
+        border-radius: 30px;
+        position: absolute;
+        left: 40%;
+        top: 130%;
+    }
+
+    .medule p {
+        color: rgb(95, 95, 95);
+        font-size: 20px;
+        position: relative;
+        left: 10%;
+        top: 45px;
+    }
+
+    .education {
+        width: 28%;
+        height: 25vh;
+        border: 2px solid silver;
+        border-radius: 30px;
+        position: absolute;
+        left: 70%;
+        top: 130%;
+    }
+
+    .lore {
+        width: 55%;
+        position: absolute;
+        left: 42%;
+        top: 158%;
+        font-size: 17px;
+    }
+
+    .exp h1 {
+        color: black;
+        font-weight: 600;
+        font-size: 30px;
+        position: relative;
+        left: -30px;
+        top: 10px;
+    }
+
+    .front {
+        width: 43%;
+        height: 50vh;
+        border: 2px solid silver;
+        border-radius: 30px;
+        position: absolute;
+        top: 235%;
+        left: 7%;
+    }
+
+    .html {
+        position: absolute;
+        top: 30%;
+        left: 5%;
+    }
+    
+    .html img {
+        width: 23%;
+    }
+    
+    .html p {
+        color: black;
+        font-size: 18px;
+        position: relative;
+        left: 45%;
+        top: -35px;
+        font-weight: 600;
+    }
+    
+    .html span {
+        color: rgb(95, 95, 95);
+        font-size: 17px;
+        position: relative;
+        left: 45%;
+        top: -30px;
+    }
+
+    .css {
+        position: absolute;
+        top: 60%;
+        left: 5%;
+    }
+    
+    .css img {
+        width: 23%;
+    }
+    
+    .css p {
+        color: black;
+        font-size: 18px;
+        position: relative;
+        left: 45%;
+        top: -35px;
+        font-weight: 600;
+    }
+    
+    .css span {
+        color: rgb(95, 95, 95);
+        font-size: 17px;
+        position: relative;
+        left: 45%;
+        top: -30px;
+    }
+
+    .js {
+        position: absolute;
+        top: 29%;
+        left: 50%;
+    }
+    
+    .js img {
+        width: 18%;
+    }
+    
+    .js p {
+        color: black;
+        font-size: 18px;
+        position: relative;
+        left: 33%;
+        top: -35px;
+        font-weight: 600;
+    }
+    
+    .js span {
+        color: rgb(95, 95, 95);
+        font-size: 17px;
+        position: relative;
+        left: 33%;
+        top: -30px;
+    }
+
+    .ui {
+        position: absolute;
+        top: 59%;
+        left: 55%;
+    }
+    
+    .ui img {
+        width: 15%;
+    }
+    
+    .ui p {
+        color: black;
+        font-size: 20px;
+        position: relative;
+        left: 40%;
+        top: -35px;
+        font-weight: 600;
+    }
+    
+    .ui span {
+        color: rgb(95, 95, 95);
+        font-size: 17px;
+        position: relative;
+        left: 40%;
+        top: -30px;
+    }
+
+    .back {
+        width: 43%;
+        height: 50vh;
+        border: 2px solid silver;
+        border-radius: 30px;
+        position: absolute;
+        top: 235%;
+        left: 53%;
+    }
+
 }
