@@ -1716,13 +1716,13 @@ button {
     }
 
     .front {
-        width: 43%;
+        width: 47%;
         height: 50vh;
         border: 2px solid silver;
         border-radius: 30px;
         position: absolute;
         top: 235%;
-        left: 7%;
+        left: 2%;
     }
 
     .html {
@@ -1809,7 +1809,7 @@ button {
     .ui {
         position: absolute;
         top: 59%;
-        left: 55%;
+        left: 50%;
     }
     
     .ui img {
@@ -1820,7 +1820,7 @@ button {
         color: black;
         font-size: 20px;
         position: relative;
-        left: 40%;
+        left: 27%;
         top: -35px;
         font-weight: 600;
     }
@@ -1829,18 +1829,216 @@ button {
         color: rgb(95, 95, 95);
         font-size: 17px;
         position: relative;
-        left: 40%;
+        left: 27%;
         top: -30px;
     }
 
     .back {
-        width: 43%;
+        width: 47%;
         height: 50vh;
         border: 2px solid silver;
         border-radius: 30px;
         position: absolute;
         top: 235%;
-        left: 53%;
+        left: 51%;
+    }
+
+    .sql {
+        position: absolute;
+        top: 27%;
+        left: 7%;
+    }
+
+    .my {
+        position: absolute;
+        top: 52%;
+        left: 7%;
+    }
+
+    .maria {
+        position: absolute;
+        top: 77%;
+        left: 7%;
+    }
+
+    .maria img {
+        width: 21%;
+    }
+
+    .proj {
+        position: absolute;
+        left: 44%;
+        top: 313%;
+        color: rgb(95, 95, 95);
+        font-size: 18px;
+    }
+
+    .proj h1 {
+        color: black;
+        font-weight: 600;
+        font-size: 30px;
+        position: relative;
+        left: 20px;
+        top: 12px;
+    }
+
+    .real {
+        width: 31%;
+        height: 60vh;
+        position: absolute;
+        top: 335%;
+        left: 2%;
+        border: 2px solid silver;
+        border-radius: 30px;
+    }
+
+    .a button {
+        width: 35%;
+        position: relative;
+        top: 60px;
+        left: 25px;
+        border: 2px solid silver;
+        border-radius: 30px;
+        cursor: pointer;
+    }
+
+    .a button a {
+        color: black;
+        font-weight: 600;
+        text-decoration: none;
+        font-size: 10px;
+    }
+
+    .a .btn {
+        position: relative;
+        left: 40px;
+        border: 2px solid silver;
+        border-radius: 30px;
+        cursor: pointer;
+    }
+
+    .for {
+        width: 31%;
+        height: 60vh;
+        position: absolute;
+        top: 335%;
+        left: 34.5%;
+        border: 2px solid silver;
+        border-radius: 30px;
+    }
+
+    .b button {
+        width: 35%;
+        position: relative;
+        top: 60px;
+        left: 25px;
+        border: 2px solid silver;
+        border-radius: 30px;
+        cursor: pointer;
+    }
+
+    .b button a {
+        color: black;
+        font-weight: 600;
+        text-decoration: none;
+        font-size: 10px;
+    }
+
+    .foreal {
+        width: 31%;
+        height: 60vh;
+        position: absolute;
+        top: 335%;
+        left: 67%;
+        border: 2px solid silver;
+        border-radius: 30px;
+    }
+
+    .b .btn {
+        position: relative;
+        left: 40px;
+        border: 2px solid silver;
+        border-radius: 30px;
+        cursor: pointer;
+    }
+
+    .c button {
+        width: 35%;
+        position: relative;
+        top: 60px;
+        left: 25px;
+        border: 2px solid silver;
+        border-radius: 30px;
+        cursor: pointer;
+    }
+
+    .c button a {
+        color: black;
+        font-weight: 600;
+        text-decoration: none;
+        font-size: 10px;
+    }
+
+    .c .btn {
+        position: relative;
+        left: 40px;
+        border: 2px solid silver;
+        border-radius: 30px;
+        cursor: pointer;
+    }
+
+    .cont h1 {
+        color: black;
+        font-weight: 600;
+        font-size: 30px;
+        position: relative;
+        left: -28px;
+        top: 15px;
+    }
+
+    .container {
+        width: 40%;
+        height: 20vh;
+        border: 2px solid silver;
+        border-radius: 30px;
+        position: relative;
+        top: 45%;
+        left: 33%;
+    }
+
+    .gmail {
+        position: relative;
+        top: 20px;
+        left: 25px;
+    }
+
+    .ink {
+        position: relative;
+        top: 18px;
+        left: 7%;
+    }
+
+    .nav {
+        width: 55%;
+        height: 10vh;
+        position: absolute;
+        right: 22%;
+        top: 38px;
+    }
+
+    .nav a {
+        color: black;
+        font-size: 20px;
+        text-decoration: none;
+        padding: 15px;
+        position: relative;
+        top: 20px;
+    }
+
+    .social {
+        position: absolute;
+        right: 1%;
+        top: 40%;
     }
 
 }
